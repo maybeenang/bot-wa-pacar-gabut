@@ -1,0 +1,19 @@
+{
+  "name": "bot-wa",
+  "version": "1.0.0",
+  "description": "bot wa iseng hehehe",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "start": "node index.js"
+  },
+  "author": "maybeenang",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "openai": "^3.1.0",
+    "qrcode-terminal": "^0.12.0",
+    "whatsapp-web.js": "^1.18.4"
+  }
+}
